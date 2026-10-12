@@ -1,0 +1,66 @@
+
+
+:root {
+    --main-font: Helvetica, sans-serif;
+    
+}
+
+body {
+    background-color: #FFECD7;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    border: 12px solid #004E63;
+    border-radius: 3%;
+}
+
+#card-content {
+    background-color: #008DB1;
+    padding: 60px;
+    /* text-align: center; */
+    align-content: center;
+}
+
+#big-title {
+    color: #FFFFFE;
+    text-align: center;
+}
+
+#sub-title {
+    color: #91E4FB;
+    text-align: center;
+}
+
+#img-holder {
+    align-self: center;
+}
+
+#prophet-img {
+    width: 180px;
+    border: 8px solid #FFFFFE;
+    align-self: center;
+    border-radius: 5%;
+    display: block;
+    margin: 0 auto;
+}
+
+#the-list {
+    color: #FFFFFE;
+    /* align-self: center; */
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#the-quote {
+    text-align: center;
+}
+
+.permanent-marker {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: #FFD783;
+}
+
