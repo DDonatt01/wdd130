@@ -4,7 +4,7 @@
 
 :root {
   
-  --primary-color: #5873EC;
+  --primary-color: #3d5ce7;
   --secondary-color: #5EAEEB;
   --accent1-color: #64F0E6;
   --accent2-color: #FFCD00;
@@ -33,6 +33,20 @@ nav {
     justify-content: space-around;
     text-align: center;
     z-index: 5;
+}
+
+nav a {
+    align-self: center;
+    text-decoration: underline;
+    font-size: 2em;
+    font-style: normal;
+    color: var(--accent2-color);
+}
+
+nav a:hover {
+    color: var(--accent3-color);
+    font-style: italic;
+    text-decoration: underline;
 }
 
 #logo {
@@ -96,9 +110,10 @@ nav {
     z-index: 3;
 }
 
-/* MAIN CONTENT */
+/* -- MAIN CONTENT -- */
+/* SIDE NAVIGATION */
 .sidenav {
-  width: 140px;
+  width: 180px;
   position: relative;
   z-index: 1;
   top: 20px;
@@ -110,16 +125,20 @@ nav {
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #2196F3;
+  text-decoration: underline;
+  font-size: 2em;
+  font-style: normal;
+  color: var(--accent2-color);
   display: block;
 }
 
 .sidenav a:hover {
-  color: #064579;
+  color: var(--accent3-color);
+  font-style: italic;
+  text-decoration: underline;
 }
 
+/* MAIN CONTENT */
 main {
     background-color: var(--secondary-color);
     margin-top: -160px;
@@ -130,14 +149,23 @@ main {
 
 .in-main {
     margin-left: 270px;
-    margin-top: -200px;
+    margin-top: -280px;
     padding: 4%;
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 5em;
     font-style: oblique;
 }
+
+.in-main p {
+    font-size: 1.8em;
+}
+
+.in-main h1 {
+    font-size: 6em;
+}
+
 
 /* FOOTer */
 footer {
