@@ -1,13 +1,12 @@
 
 
 :root {
-  
   --primary-color: #3d5ce7;
   --secondary-color: #5EAEEB;
   --accent1-color: #64F0E6;
   --accent2-color: #FFCD00;
   --accent3-color: white;
-
+  --accent4-color: #2c44b1;
 }
 
 
@@ -23,15 +22,18 @@ body {
 
 /* HEADER*/
 header {
-    background-color: var(--primary-color);
-    padding: 12px;
+    /* background-color: var(--primary-color); */
+    margin: 0px auto;
+    /*padding: 12px; */
 }
 
 nav {
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-around;
     text-align: center;
     z-index: 5;
+    padding: 12px;
 }
 
 nav a {
@@ -48,19 +50,111 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.sub-nav {
+    background-color: var(--accent1-color);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    z-index: 4;
+    padding: 12px 25vw;
+}
+
+.sub-nav a {
+    align-self: center;
+    text-decoration: underline;
+    font-size: 2em;
+    font-style: normal;
+    color: black;
+}
+
+.sub-nav a:hover {
+    color: var(--primary-color);
+    font-style: italic;
+    text-decoration: underline;
+}
+
 #logo {
     width: 6%;
 }
 
+/* MAIN */
 main {
     background-color: var(--secondary-color);
-    /* margin-top: -160px;*/
     position: relative;
     z-index: 5;
-    margin-left: 100px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+main h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.8em;
+}
+
+.project {
+    /* margin-top: 10px; */
+    margin-bottom: 40px;
+    border: 10px solid var(--primary-color);
+    box-shadow: 5px 5px 10px black;
+    padding: 1vw 4vw;
+}
+
+.project p {
+    font-size: 1.6em;
+}
+
+.project a {
+    font-size: 1.8em;
+    font-style: normal;
+    text-decoration: underline;
+    color: var(--accent4-color);
+}
+
+.project a:hover {
+    font-style: italic;
+    text-decoration: underline;
+    color: var(--accent3-color);
+}
+
+.floater {
+    margin-top: -25px;
+    width: 220px;
+    height: 165px;
+    /* background-color: black; */
+    float: right;
 }
 
 
+/* ALL projects */
+#site-plan-img {
+    margin-top: -30px;
+    width: 280px;
+    height: 340px;
+}
+
+#wwr-img {
+    width: 360px;
+    height: 224px;
+}
+
+
+/* ICE projects */
+#flags-img {
+    width: 190px;
+    height: 240px;
+}
+
+#favdevo-img {
+    width: 300px;
+    height: 165px;
+}
+
+
+/* FOOTER */
 footer {
     background-color: var(--primary-color);
     height: 200px;

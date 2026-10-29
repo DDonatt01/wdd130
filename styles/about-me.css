@@ -58,6 +58,7 @@ main {
     position: relative;
     z-index: 5;
     margin-left: 100px;
+    height: 550px;
 }
 
 
