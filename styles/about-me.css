@@ -57,10 +57,24 @@ main {
     /* margin-top: -160px;*/
     position: relative;
     z-index: 5;
-    margin-left: 100px;
-    height: 550px;
+    margin-left: 12vw;
+    margin-right: 26vw;
+    height: 650px;
 }
 
+h1 {
+    font-size: 3em;
+}
+
+li {
+    font-size: 2em;
+}
+
+main img {
+    float: right;
+    width: 300px;
+    height: 320px;
+}
 
 footer {
     background-color: var(--primary-color);
