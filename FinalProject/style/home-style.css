@@ -1,0 +1,91 @@
+
+:root {
+    --Tiara: #bed7d1;
+    --Full-Moon: #f7ebc3;
+    --Almond: #fbd6c6;
+    --Blush: #f8e1e7;
+    --Pastel: #f8d1e0;
+
+}
+
+body {
+    margin: 0px auto;
+    background-color: var(--Full-Moon);
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    background-color: var(--Tiara);
+}
+
+nav a {
+    align-self: center;
+    color: black;
+}
+
+nav a:hover {
+    color: var(--Full-Moon);
+}
+
+#homeLink {
+    grid-column: 6/7;
+}
+
+#detailsLink {
+    grid-column: 7/8;
+}
+
+#registriesLink {
+    grid-column: 8/9;
+}
+
+.smallLogo{
+    width: 180px;
+}
+
+#headerImage {
+    width: 100vw;
+}
+
+main {
+    background-color: var(--Full-Moon);
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+main img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 5px solid var(--Almond);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    background-color: var(--Blush);
+    border: 5px solid var(--Pastel);
+    padding: 6px;
+}
+
+.split {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 3vw;
+    place-items: center;
+}
+
+.splitItem {
+    width: 40vw;
+}
+
+.triple {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    place-items: center;
+}
+
+footer {
+    height: 100px;
+    background-color: var(--Tiara);
+}
