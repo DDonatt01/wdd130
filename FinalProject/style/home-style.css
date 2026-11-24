@@ -8,6 +8,13 @@
 
 }
 
+.gelasio {
+  font-family: "Gelasio", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 body {
     margin: 0px auto;
     background-color: var(--Full-Moon);
@@ -66,6 +73,30 @@ h2 {
     background-color: var(--Blush);
     border: 5px solid var(--Pastel);
     padding: 6px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.butt {
+    background-color: var(--Blush);
+    padding: 20px 12vw;
+    color: black;
+    font-family: "Gelasio", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.butt:hover {
+    background-color: var(--Pastel);
+    padding: 20px 12vw;
+    color: var(--Full-Moon);
+    font-family: "Gelasio", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .split {
